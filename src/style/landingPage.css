@@ -1,0 +1,33 @@
+.myBG {
+    height: 90vh;
+    background: url("../assets/images/bg/bioskop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro {
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px blue;
+    letter-spacing: 4px;
+}
+
+@media(max-width: 758px){
+    .intro {
+        height: 450px;
+    }
+    .title {
+        color: rgb(34, 0, 156);
+        text-shadow: 2px 2px rgb(147, 221, 0);
+    }
+    }
+    
